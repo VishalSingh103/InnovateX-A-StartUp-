@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>InnovateX</title>
+  <style>
+    *{
+            margin:0px ;
+            padding:0px;
+        }
+    body{
+        height:130vh;
+        width:100vw;
+        background-color:white;
+    }
+    .h1{
+        height:15vh;
+        width: 100vw;
+        background-color:#f9a11b;
+        box-shadow: 1px 1px 1px 1px;
+        /*position: fixed;*/
+    }
+    .f1{
+        height:15vh;
+        width: 100vw;
+        margin:0px 0px;
+        background-color:#4caf50;
+        box-shadow: 1px 1px 1px 1px;
+        text-align: center;
+        font-weight: bold;
+        font-size: 2.5vh;
+        line-height: 15vh;
+    }
+    #d1{
+      display:inline-block;
+     font-size: 65px;
+     text-align: center;
+     font-weight: bold;
+      margin:2px 20vw 2px 45vw;
+    }
+    #d2{
+        text-align: center;
+        font-size: 20px;
+    }
+    .d4{
+        text-align: center;
+        margin:20px  150px 10px auto;
+        width:52vw;
+        height:10vh;
+       /* border: 2px solid red;*/
+        border-radius: 30px;
+        box-shadow: 2.6px 2.6px 2.6px 2.6px;
+        font-size: 20px;
+        padding: 11px;
+    }
+#d13{
+  height:3vh;
+  width:6vw;
+  display:inline-block;
+  border:2px solid #090707;
+  background-color: white;
+  color: black;
+  text-align: center;
+}
+    .d3{
+        text-align: center;
+        margin:20px 10px 0px 150px;
+        width:52vw;
+        height:10vh;
+        /*border: 2px solid red;*/
+        border-radius: 30px;
+        box-shadow: 2.6px 2.6px 2.6px 2.6px;
+        font-size: 20px;
+        padding: 11px;
+    }
+   .s1{
+    margin:20px;
+   }
+   .s2{
+    height:60vh;
+    width:100vw;
+    background-color: white;
+     display: flex;
+   }
+   .dd1{
+    height:50vh;
+    width:30vw;
+    /*border:3px solid red;*/
+    margin:auto auto;
+    border-radius: 40px;
+   }
+   
+   .ddb{
+    width:25vw;
+    height:10vh;
+    margin:38vh auto;
+    border-radius: 40px;
+    text-align: center;
+    line-height:5vh;
+   }
+   #aak{
+     margin:30px auto;
+    background-image: url(https://dropoutdudes.com/wp-content/uploads/2017/11/start-up-india-1024x570.jpg) ;
+    background-size: 64vh;
+    background-repeat: no-repeat;
+   }
+   #aad{
+      margin:30px auto;
+    background-size: 64vh;
+    background-image: url("data:image/jpeg;base64,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");
+    
+    background-repeat: no-repeat;
+   }
+   #aas{
+      margin:30px auto;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFazcQX6NSMK2vnmCsxK1hge1Ixj-8a1slFA&usqp=CAU) ;
+    background-size: 68vh;
+    background-repeat: no-repeat;
+   }
+   .red{
+    font-size: 25px;
+    text-align: center;
+    margin : 10vh auto;
+   }
+   footer{
+    height:10vh;
+    width:100vw;
+    background-color: #ADD8E6;
+    margin:0px 0px;
+   }
+  </style>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <script src="script.js"></script>
+    <header class="h1">
+        <div id ="d1">InnovateX</div><a href="https://team-sushruta2.9065588884.repl.co/" id ="d13">Login</a>
+        <div id ="d2">A marketplace connecting innovative startups, skilled professionals, and savvy investors to collaborate and bring new ideas to life.</div>
+    </header>
+    <section class="s1">
+       <div class="d3" class="aa1">"InnovateX is the premier platform for connecting the brightest minds in the startup world. Whether you're a budding entrepreneur with a game-changing idea or an experienced professional looking to join a dynamic team, we've got you covered."</div>
+       <div class="d4"  class="aa1">"InnovateX is the ultimate destination for startups and investors alike. With our powerful matching algorithm, you can easily find the perfect partners to bring your ideas to life."</div>
+       <div class="d3"  class="aa1">"InnovateX is the ultimate destination for startups and investors alike. With our powerful matching algorithm, you can easily find the perfect partners to bring your ideas to life."</div>
+       <div class="d4" class="aa1">"At InnovateX, we believe in the power of collaboration. That's why we've created a marketplace where startups, skilled employees, and investors can connect and work together to create the next big thing."</div>
+       <div class="d3" class="aa1">"InnovateX is the ultimate destination for innovators and early adopters. Whether you're a startup looking to grow or an investor looking for the next big thing, we're here to help you succeed."</div>
+</section>
+<section class="s2">
+  <div class="dd1"  id ="aak"><div class="ddb"><a class="red" href ="https://team-sushruta.9065588884.repl.co/">For Startup register here</a></div></div>
+  <div class="dd1" id ="aad"><div class="ddb"><a class="red" href ="https://team-sushruta3.9065588884.repl.co/">Skilled workers register here</a></div></div>
+  <div class="dd1" id ="aas"><div class="ddb"><a class="red" href ="https://team-sushruta1.9065588884.repl.co/">Investors register here</a></div></div>
+</section></body>
+<footer class="f1">
+   Team Sushruta | Copyright © 2023 Priyanshu Raj | Suman Panigrahi | B.Hemanth Sai Vardhan | Prasad Simhadri | Vaibhav Shekar
+</footer>
+<script>function k1() {
+    let a = prompt("Enter your login id");
+    console.log(a);
+    a = Number.parseInt(a);
+    if(a==6303013652){
+      let b = prompt("Enter your password");
+      console.log(b);
+       b = Number.parseInt(b);
+      if(b==123456){
+        alert("Login successful");
+      }
+      else{
+        alert("Login failed");
+      }
+    }
+    else if(a==9065588884){
+       let b = prompt("Enter your password");
+      console.log(b);
+       b = Number.parseInt(b);
+      if(b==123456){
+        alert("Login successful");
+      }
+      else{
+        alert("Login failed");
+      }
+    }
+  }</script>
+</html>
